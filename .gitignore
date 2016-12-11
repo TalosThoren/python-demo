@@ -1,0 +1,9 @@
+# Vim generated files
+*~
+*.swp
+
+# Mac generated files
+.DS_Store
+
+# Python generated files
+*.pyc
