@@ -49,9 +49,9 @@ testing go. The testing is not particularly robust, but it helped me maintain
 confidence as I implemented and altered functions.
 
 I've got a main.py file that serves as a rudimentary demonstration, providing
-the output requested in the assignment as well in a human readable format.
+the output requested in the assignment in a human readable format.
 
-The Makefile currently onle does two things. It defaults to 'demo' which runs
+The Makefile currently only does two things. It defaults to 'demo' which runs
 the main.py demonstration script, and can be used to run the tests with the
 'check' target.
 
@@ -64,6 +64,6 @@ up-to-date, as I used the UserDict object instead of inheriting from dict
 directly. The tree implementation used here can likely be improved upon.
 
 The first portion of the exercise also uses altered sample data, however, the
-original sample data is shown. Several batches of sample data were used, and I
+altered sample data is output. Several batches of sample data were used, and I
 considered creating a function to randomly generate short-to-medium lists for
 use in testing, but this was deemed out of scope.
